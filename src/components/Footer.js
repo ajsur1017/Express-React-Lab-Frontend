@@ -1,5 +1,8 @@
 function Footer(props) {
-    return <h1>Footer</h1>;
+    return <div>
+      <p>Made by: Anthony Surace</p>
+      <p>October 30, 2021</p>
+    </div>;
   }
   
   export default Footer;

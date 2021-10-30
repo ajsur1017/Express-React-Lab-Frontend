@@ -9,21 +9,23 @@ function Header(props) {
     padding: "8px",
     width: "90%",
     margin: "auto",
+    backgroundColor: "#a9a9a9"
   };
 
   return (
     <header>
-      <h1>My Portfolio Page</h1>
+      <h1>Anthony Surace's Portfolio</h1>
       <nav style={navStyle}>
         <Link to="/">
           <div>HOME</div>
         </Link>
-        <Link to="/about">
-          <div>ABOUT</div>
-        </Link>
         <Link to="/projects">
           <div>PROJECTS</div>
         </Link>
+        <Link to="/about">
+          <div>ABOUT</div>
+        </Link>
+       
       </nav>
     </header>
   );

@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
+  text-align: center; 
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +36,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+body {
+  font-family: 'Alegreya Sans SC';font-size: 22px;
+  background-color: lightgray;
+}
+#projectCard {
+  width: 38%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 35%);
+}
+#projectImg {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  max-height: 35vh;
+  max-width: 800px;
+}
+#projectCards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95vw;
+  min-width: 700px;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 30px 0;
 }
